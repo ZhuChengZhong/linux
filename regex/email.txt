@@ -1,0 +1,6 @@
+匹配郵箱地址
+956281507@qq.com
+sad546465.asd
+5614asd@sd.com
+asd45asdas
+grep -E "[a-z0-9]+@[a-z0-9]+\.[a-z]+" email.txt
