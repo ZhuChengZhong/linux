@@ -1,0 +1,3 @@
+zhu man 20
+li woman 20
+hah man 10

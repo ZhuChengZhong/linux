@@ -1,0 +1,9 @@
+//输出文件行数
+awk 'BEGIN{i=0}{i++}END{print i}' data.txt
+//打印行数以及字段信息
+awk '{print "Line no:" NR ",fields:" NF ",f0=" $0 ",f1=" $1 ",f2=" $2 ",f3="$3}' data1.txt
+//getline读取一行
+awk 'BEGIN{ getline; print "first line is: "$0}{print $0}' data.txt
+//打印每个用户对应的shell
+awk 'BEGIN{FS=":"}{map[$1]=$7}END{for (item in map){ print item,map[item]}}' /etc/passwd
+
