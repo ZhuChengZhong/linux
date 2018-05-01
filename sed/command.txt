@@ -1,0 +1,8 @@
+sed 's/ /,/g' data.txt
+
+//将文本中的三位数的数字替换为 “NUMBER”
+sed "s/\b[0-9]\{3\}\b/NUMBER/g" number.txt
+//交换两个单词的位置
+sed 's/\([a-zA-Z]\+\) \([a-zA-Z]\+\)/\2 \1/g' word.txt 
+
+
