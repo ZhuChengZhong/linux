@@ -1,0 +1,5 @@
+zhu 男 20
+li 女 20
+xiaohong 女 10
+
+//cut -d " " -f 1,2 data.txt
